@@ -21,6 +21,11 @@
 <br/> <br/>
 
 ## Pinout Configuration
+* LED -> OUTPUT -> 2
+* DCMotor -> OUTPUT -> 8, 9, 10, 11
+* ServoMotor -> OUTPUT -> 12, 13 
+* ColorSensor -> OUTPUT -> A0, A1, A2, A3
+* ColorSensor -> INPUT -> 3
 
 
 <br/> <br/>
