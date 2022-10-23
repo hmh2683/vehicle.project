@@ -33,7 +33,6 @@
 
 
 ## Code review
-### Main
 * The if statement is executed according to the button variable that is interrupted.
 ```C
   digitalWrite(s2,LOW);               
@@ -43,7 +42,26 @@
   red_color = map(red_color,25,72,255,0);  
   red_color = constrain(red_color,0,255);
 ```
+* 
+```C
+  tiltservo.attach(tilt_servo);  
+  gripservo.attach(grip_servo);
+```
+```C
+void Put(){
+  tiltservo.write(50);  
+  delay(100);
+  gripservo.write(110); 
+  delay(200);
+}
 
+void Hold(){
+  gripservo.write(75); 
+  delay(200);
+  tiltservo.write(75);
+  delay(100);
+}
+```
 <br/> <br/>
 
 ## Result
