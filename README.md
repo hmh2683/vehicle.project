@@ -27,14 +27,14 @@
 * ColorSensor -> OUTPUT -> A0, A1, A2, A3
 * ColorSensor -> INPUT -> 3
 
-
 <br/> <br/>
 
-
-
 ## Code review
-* The if statement is executed according to the button variable that is interrupted.
+* 
 ```C
+  digitalWrite(s0,HIGH);  
+  digitalWrite(s1,LOW);
+  
   digitalWrite(s2,LOW);               
   digitalWrite(s3,LOW);
   
@@ -42,36 +42,32 @@
   red_color = map(red_color,25,72,255,0);  
   red_color = constrain(red_color,0,255);
 ```
-* 
+* 수직과 수평을 제어하기 위한 서보모터 2 개를 12번 핀과 13번 핀으로 구성하였습니다.
+* 12번 서보모터는 75도, 50도를 설정하여 올리고 내릴 수 있도록 하고, 13번 모터는 75도, 110도를 설정하여 수평으로 잡고 풀 수 있도록 하여 물건을 지탱할 수 있도록 설계하였습니다.
 ```C
-  tiltservo.attach(tilt_servo);  
-  gripservo.attach(grip_servo);
-```
-```C
-void Put(){
-  tiltservo.write(50);  
-  delay(100);
-  gripservo.write(110); 
-  delay(200);
-}
+  tiltservo.attach(12);  
+  gripservo.attach(13);
 
-void Hold(){
   gripservo.write(75); 
   delay(200);
   tiltservo.write(75);
   delay(100);
-}
+  
+  tiltservo.write(50);  
+  delay(100);
+  gripservo.write(110); 
+  delay(200);
 ```
+
 <br/> <br/>
 
 ## Result
-### Photo
 <a href="#"><img src="?" width="500px" height="400px"></a>
 <a href="#"><img src="?" width="500px" height="400px"></a>
 
 <br/> <br/>
 
 ## Realization
-* The automatic generation of STM32CubeIDE confirmed that the pin was set up, and I was able to master how to use the interrupt and timer.
+* 
 
 
