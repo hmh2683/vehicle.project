@@ -4,9 +4,9 @@
 * Development environment : Arduino IDE
 * Development language : C++
 * Development goals  
+  * 바퀴가 이동할 수 있도록 제어
+  * 서보모터 2개 를 활용하여 그립과 경사를 조정한다 
   * 물건 색상을 구분할 수 있도록 센서의 주파수 값을 제어한다.
-  * 
-  * Control relay by comparing set temperature with current temperature and maintain and manage set temperature.
 
 <br/> <br/>
 
@@ -21,9 +21,6 @@
 <br/> <br/>
 
 ## Pinout Configuration
-<a href="#"><img src="?" width="400px" height="400px"></a>
-
-### System Core
 
 
 ### Connectivity
