@@ -36,8 +36,12 @@
 ### Main
 * The if statement is executed according to the button variable that is interrupted.
 ```C
-
-
+  digitalWrite(s2,LOW);               
+  digitalWrite(s3,LOW);
+  
+  red_color = pulseIn(out_pin, LOW);
+  red_color = map(red_color,25,72,255,0);  
+  red_color = constrain(red_color,0,255);
 ```
 
 <br/> <br/>
