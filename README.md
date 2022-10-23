@@ -4,19 +4,19 @@
 * Development environment : Arduino IDE
 * Development language : C++
 * Development goals  
-  * The current temperature is displayed on the FND module by calling the temperature information of the sensor from the STM32.
-  * Select the set temperature through 3 buttons and OLED module, and display status information of relay through OLED module.
+  * 물건 색상을 구분할 수 있도록 센서의 주파수 값을 제어한다.
+  * 
   * Control relay by comparing set temperature with current temperature and maintain and manage set temperature.
 
 <br/> <br/>
 
 ## Microcontroller
 <a href="#"><img src="?" width="350px" height="350px"></a> 
-* Part : STM32F103C8T6
-* Manufacturer : ST-Microelectronics
-* Core : Arm Cortex-M3
-* Clock Speed(MAX) : 72MHz
-* Package : LQFP 48 pin
+* Part : Arduino Uno (M3)
+* Core : AVR ATMega328 
+* Clock Speed : 16MHz
+* Digital I/O Pins : 14 (of which 6 provide PWM output)
+* Analog Input Pins : 6
 
 <br/> <br/>
 
