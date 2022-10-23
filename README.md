@@ -1,8 +1,8 @@
-# Heating room temperature control system
-* Period : 2021.03-2022.06 (4 months)
+# Color sensing vehicle
+* Period : 2021.03-2021.06 (4 months)
 * Personnel : 5 person
 * Development environment : Arduino IDE
-* Development language : C, C++
+* Development language : C++
 * Development goals  
   * The current temperature is displayed on the FND module by calling the temperature information of the sensor from the STM32.
   * Select the set temperature through 3 buttons and OLED module, and display status information of relay through OLED module.
