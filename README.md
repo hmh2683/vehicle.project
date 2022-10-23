@@ -1,5 +1,5 @@
 # Color sensing vehicle
-* Period : 2021.03-2021.06 (4 months)
+* Period : 2021.04-2021.06 (3 months)
 * Personnel : 5 person
 * Development environment : Arduino IDE
 * Development language : C++
@@ -15,6 +15,7 @@
 * Part : Arduino Uno (M3)
 * Core : AVR ATMega328 
 * Clock Speed : 16MHz
+* Package : 
 * Digital I/O Pins : 14 (of which 6 provide PWM output)
 * Analog Input Pins : 6
 
