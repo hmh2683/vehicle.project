@@ -46,8 +46,8 @@
 ```
 
 * Two servo motors for vertical and horizontal control are composed of pins 12 and 13.
-* Servo 12 can be lifted and lowered vertically by setting 75 degrees and 50 degrees.
-* Servo 13 can be held and released horizontally with settings of 75 and 110 degrees.
+* Servo 12 raises and lowers objects vertically by setting 75 and 50 degrees.
+* Servo 13 holds and places objects horizontally with 75 degree and 110 degree settings
 ```C
   tiltservo.attach(12);  
   gripservo.attach(13);
@@ -71,5 +71,6 @@
 
 ### Realization
 * It was very helpful to design and proceed the project directly rather than proceeding with the Arduino practice according to the lecture.
+* I was able to complete the targeted results while communicating with the four team members.
 * Using the datasheet and open source of the hardware used in the project, I was able to feel the joy of operating the hardware myself.
-* It was meaningful to be able to complete the targeted results while communicating with the four team members.
+
