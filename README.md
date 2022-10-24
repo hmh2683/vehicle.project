@@ -32,7 +32,7 @@
 ## Code Review
 * Set the s0 pin to HIGH and the s1 pin to LOW to output the frequency at 20% size.
 * The s2, s3 pins are combined to receive frequency values of red, green, and blue.
-* pulseIn 함수를 통해 주파수의 값을 가져오고 그 값이 0~255 범위로 가져옵니다.
+* Get the value of the frequency through the pulseIn function and get the value in the range 0-255.
 
 ```C
   digitalWrite(s0,HIGH);  
