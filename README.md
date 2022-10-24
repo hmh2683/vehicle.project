@@ -33,6 +33,7 @@
 * Set the s0 pin to HIGH and the s1 pin to LOW to output the frequency at 20% size.
 * The s2, s3 pins are combined to receive frequency values of red, green, and blue.
 * Get the value of the frequency through the pulseIn function and get the value in the range 0-255.
+
 ```C
   digitalWrite(s0,HIGH);  
   digitalWrite(s1,LOW);
@@ -48,6 +49,7 @@
 * Two servo motors for vertical and horizontal control are composed of pins 12 and 13.
 * Servo 12 raises and lowers objects vertically by setting 75 and 50 degrees.
 * Servo 13 holds and places objects horizontally with 75 degree and 110 degree settings
+
 ```C
   tiltservo.attach(12);  
   gripservo.attach(13);
@@ -69,9 +71,9 @@
 <a href="#"><img src="?" width="500px" height="400px"></a>
 <a href="#"><img src="?" width="500px" height="400px"></a>
 
-### Realization
+<br/> <br/>
+
+## Realization
 * Using the datasheet and open source of the hardware used in the project, I was able to feel the joy of operating the hardware myself.
 * It was very helpful to design and proceed the project directly rather than proceeding with the Arduino practice according to the lecture.
 * By communicating with the four team members, I was able to complete the targeted results, and it was an opportunity to take responsibility for the roles I was assigned.
-
-
