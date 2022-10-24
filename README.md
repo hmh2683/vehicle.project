@@ -70,7 +70,8 @@
 <a href="#"><img src="?" width="500px" height="400px"></a>
 
 ### Realization
-* It was very helpful to design and proceed the project directly rather than proceeding with the Arduino practice according to the lecture.
-* I was able to complete the targeted results while communicating with the four team members.
 * Using the datasheet and open source of the hardware used in the project, I was able to feel the joy of operating the hardware myself.
+* It was very helpful to design and proceed the project directly rather than proceeding with the Arduino practice according to the lecture.
+* By communicating with the four team members, I was able to complete the targeted results, and it was an opportunity to take responsibility for the roles I was assigned.
+
 
