@@ -33,7 +33,6 @@
 * Set the s0 pin to HIGH and the s1 pin to LOW to output the frequency at 20% size.
 * The s2, s3 pins are combined to receive frequency values of red, green, and blue.
 * Get the value of the frequency through the pulseIn function and get the value in the range 0-255.
-
 ```C
   digitalWrite(s0,HIGH);  
   digitalWrite(s1,LOW);
@@ -46,10 +45,9 @@
   red_color = constrain(red_color,0,255);
 ```
 
-* 수직과 수평을 제어하기 위한 서보모터 2 개를 12번 핀과 13번 핀으로 구성합니다.
-* 12번 서보모터는 75도, 50도로 설정하여 수직으로 들어올리고 내려 놓을 수 있도록 설계합니다.
-* 13번 서보모터는 75도, 110도로 설정하여 수평으로 잡고 풀 수 있도록 설계합니다.
-
+* Two servo motors for vertical and horizontal control are composed of pins 12 and 13.
+* Servo 12 is designed to be lifted and lowered vertically by setting 75 degrees and 50 degrees.
+* Servo 13 is designed to hold and release horizontally by setting it at 75 degrees and 110 degrees.
 ```C
   tiltservo.attach(12);  
   gripservo.attach(13);
@@ -71,10 +69,7 @@
 <a href="#"><img src="?" width="500px" height="400px"></a>
 <a href="#"><img src="?" width="500px" height="400px"></a>
 
-<br/> <br/>
-
-## Realization
-* 아두이노 실습을 강의에 맞춰서 진행하는 것이 아닌 직접 프로젝트를 설계하고 진행하며 많은 도움이 되었습니다.
-* 프로젝트에서 사용되는 각 하드웨어의 데이터시트 및 오픈소스를 활용하며 스스로 하드웨어를 작동시키는 것에 즐거움을 느낄 수 있었습니다.
-* 4명의 팀원들과 컬러 감지 운반차를 진행하면서 각자의 역할을 수행하고 소통하면서 목표했던 결과물을 완성시킬 수 있어 의미가 있었습니다.
-
+### Realization
+* It was very helpful to design and proceed the project directly rather than proceeding with the Arduino practice according to the lecture.
+* Using the datasheet and open source of the hardware used in the project, I was able to feel the joy of operating the hardware myself.
+* It was meaningful to be able to complete the targeted results while communicating with the four team members.
