@@ -46,8 +46,8 @@
 ```
 
 * Two servo motors for vertical and horizontal control are composed of pins 12 and 13.
-* Servo 12 is designed to be lifted and lowered vertically by setting 75 degrees and 50 degrees.
-* Servo 13 is designed to hold and release horizontally by setting it at 75 degrees and 110 degrees.
+* Servo 12 can be lifted and lowered vertically by setting 75 degrees and 50 degrees.
+* Servo 13 can be held and released horizontally with settings of 75 and 110 degrees.
 ```C
   tiltservo.attach(12);  
   gripservo.attach(13);
