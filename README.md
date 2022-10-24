@@ -1,12 +1,12 @@
 # Color Sensing Vehicle
 * Period : 2021.04-2021.06 (3 months)
 * Personnel : 5 person
-* Development environment : Arduino IDE
+* Development environment : ArduinoIDE
 * Development language : C++
 * Development goals  
-  * 운반차가 2개의 DC모터를 이용하여 목적지에 정확하게 도달합니다.
-  * 2개의 서보모터로 안전하게 감지한 사물을 들어올리고 내려놓습니다.
-  * 색상 감지 센서에서 사물의 색상을 감지하고 색상에 따라 설정한 경로로 움직입니다. 
+  * The vehicle uses two DC motors to accurately reach its destination.
+  * Raises and lowers objects safely detected by two servo motors.
+  * The sensor detects the color of the object and moves along the set path according to the color.
 
 <br/> <br/>
 
@@ -30,8 +30,8 @@
 <br/> <br/>
 
 ## Code Review
-* s0핀을 HIGH s1핀을 LOW로 설정하면서 주파수를 20% 크기로 출력할 수 있도록 설정합니다.
-* s1,s2 핀을 조합하여 빨강, 초록, 파랑의 주파수 값을 받아옵니다.
+* Set the s0 pin to HIGH and the s1 pin to LOW to output the frequency at 20% size.
+* The s2, s3 pins are combined to receive frequency values of red, green, and blue.
 * pulseIn 함수를 통해 주파수의 값을 가져오고 그 값이 0~255 범위로 가져옵니다.
 
 ```C
