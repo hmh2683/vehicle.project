@@ -11,7 +11,7 @@
 <br/> <br/>
 
 ## Microcontroller
-<a href="#"><img src="https://github.com/hmh2683/vehicle.project/blob/main/images/mcu.png" width="400px" height="350px"></a> 
+<a href="#"><img src="https://github.com/hmh2683/vehicle.project/blob/main/images/mcu.png" width="400px" height="300px"></a> 
 * Board : Arduino Uno (M3)
 * Core : AVR ATMega328 
 * Clock Speed : 16MHz
@@ -70,8 +70,8 @@
 ## Result
 <a href="#"><img src="https://github.com/hmh2683/vehicle.project/blob/main/images/motor.png" width="400px" height="300px"></a>
 <a href="#"><img src="https://github.com/hmh2683/vehicle.project/blob/main/images/sensor.png" width="400px" height="300px"></a>
-<a href="#"><img src="https://github.com/hmh2683/vehicle.project/blob/main/images/result.png" width="500px" height="400px"></a>
-<a href="#"><img src="https://github.com/hmh2683/vehicle.project/blob/main/images/result2.png" width="500px" height="400px"></a>
+<a href="#"><img src="https://github.com/hmh2683/vehicle.project/blob/main/images/result2.png" width="400px" height="300px"></a>
+<a href="#"><img src="https://github.com/hmh2683/vehicle.project/blob/main/images/result.png" width="400px" height="300px"></a>
 
 <br/> <br/>
 
