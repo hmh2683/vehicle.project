@@ -48,7 +48,7 @@
 
 * Two servo motors for vertical and horizontal control are composed of pins 12 and 13.
 * Servo 12 raises and lowers objects vertically by setting 75 and 50 degrees.
-* Servo 13 holds and places objects horizontally with 75 degree and 110 degree settings
+* Servo 13 holds and places objects horizontally with 75 degree and 110 degree settings.
 
 ```C
   tiltservo.attach(12);  
